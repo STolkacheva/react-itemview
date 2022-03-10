@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+h1,
+p {
+  font-family: Lato;
+}
+.iconswitch {
+  margin: auto;
+  display: flex;
+  justify-content: end;
+}
+.iconswitch:hover {
+  opacity: 0.5;
+}
+.listview-item {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  margin: 5px;
+}
+.listview-item-img {
+  height: 100px;
+}
+.listview-item-name {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.listview-item-color {
+  font-size: 12px;
+  color: grey;
+}
+
+.listview-item-price {
+  color: red;
+  font-size: 16px;
+}
+.listview-item-button {
+  height: 25px;
+  padding: 5px 8px;
+  border: 1px solid red;
+  border-radius: 25px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: red;
+  margin-right: 10px;
+}
+.cardview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cardview-item {
+  width: 300px;
+  height: 300px;
+  margin: 15px 30px;
+  box-shadow: 1px 5px 10px #a39e9e;
+  position: relative;
+}
+.cardview-item-img {
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+}
+.cardview-item-name {
+  font-size: 20px;
+  text-align: center;
+  margin: 15px 0 5px 0;
+  text-transform: uppercase;
+}
+.cardview-item-color {
+  font-size: 12px;
+  color: grey;
+  text-align: center;
+}
+
+.cardview-item-price {
+  color: red;
+  font-size: 16px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.cardview-item-button {
+  height: 25px;
+  padding: 5px 8px;
+  border: 1px solid red;
+  border-radius: 25px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: red;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.store {
+  margin: auto;
+  max-width: 1200px;
+  min-width: 620px;
+}
