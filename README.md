@@ -1,3 +1,7 @@
+## ДЕМО
+https://stolkacheva.github.io/react-itemview/
+
+## Исходное задание
 Расположение товаров
 ===
 
